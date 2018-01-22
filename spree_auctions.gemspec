@@ -3,16 +3,16 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_auctions'
   s.version     = '2.0.41'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'Extension for Auction capabilities for Spree'
+  s.description = 'Full fledged auction extension for Spree'
   s.required_ruby_version = '>= 1.9.3'
 
-  # s.author    = 'enbake'
-  # s.email     = 'ishwinder@enbake.com'
-  # s.homepage  = 'http://www.enbake.com'
+  s.author    = 'enbake'
+  s.email     = 'ishwinder@enbake.com'
+  s.homepage  = 'http://www.enbake.com'
 
-  #s.files       = `git ls-files`.split("\n")
-  #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
+  s.files       = `git ls-files`.split("\n")
+  s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_path = 'lib'
   s.requirements << 'none'
 
